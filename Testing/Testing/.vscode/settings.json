@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\R3\\Downloads\\junit-4.13.2.jar",
+        "c:\\Users\\R3\\Downloads\\hamcrest-3.0.jar"
+    ]
+}
