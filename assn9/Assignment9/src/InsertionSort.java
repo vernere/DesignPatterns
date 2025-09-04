@@ -3,6 +3,9 @@ public class InsertionSort implements Strategy {
     // https://www.geeksforgeeks.org/dsa/insertion-sort-algorithm/
     // Code used from geeksforgeeks and modified slighlty to fit interface.
 
+    //Choose this one for its blazing fast speed.
+
+
     @Override
     public void sort(int[] arr, int n) {
         for (int i = 1; i < n; ++i) {

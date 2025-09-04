@@ -2,7 +2,9 @@ public class BubbleSort implements Strategy {
 
     // https://www.geeksgeeksforgeeks.org/dsa/bubble-sort-algorithm/
     // Code used from geeksforgeeks and modified slighlty to fit interface.
-    
+
+    // Choose this one because its the first one i ever coded by hand in c++.
+
     @Override
     public void sort(int arr[], int n) {
         int i, j, temp;

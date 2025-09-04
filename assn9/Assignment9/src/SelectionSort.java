@@ -3,6 +3,8 @@ public class SelectionSort implements Strategy {
     // https://www.geeksforgeeks.org/dsa/selection-sort-algorithm-2/
     // Code used from  geeksforgeeks and modified slighlty to fit interface.
 
+    //Choose this one for its blazing fast speed.
+
     @Override
     public void sort(int[] arr, int n) {
         for (int i = 0; i < n - 1; i++) {
