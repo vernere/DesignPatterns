@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.assignment11.PrimaryController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   
+   <Label text="Rectangle Color Demo" style="-fx-font-size: 16px; -fx-font-weight: bold;" />
+   
+   <HBox alignment="CENTER" spacing="20.0">
+      <Rectangle fx:id="rectangle1" width="100" height="80" fill="RED" />
+      <Rectangle fx:id="rectangle2" width="100" height="80" fill="GREEN" />
+      <Rectangle fx:id="rectangle3" width="100" height="80" fill="BLUE" />
+   </HBox>
+   
+   <HBox alignment="CENTER" spacing="10.0">
+      <Label text="Rectangle 1:" />
+      <ColorPicker fx:id="colorPicker1" onAction="#changeColor1" />
+      <Label text="Rectangle 2:" />
+      <ColorPicker fx:id="colorPicker2" onAction="#changeColor2" />
+      <Label text="Rectangle 3:" />
+      <ColorPicker fx:id="colorPicker3" onAction="#changeColor3" />
+   </HBox>
+   
+   <CheckBox fx:id="animationCheckBox" text="Enable Animation" onAction="#toggleAnimation" />
+   
+   <HBox alignment="CENTER" spacing="10.0">
+      <Button text="Reset Colors" onAction="#resetColors" />
+      <Button text="Show History" onAction="#openHistoryWindow" />
+   </HBox>
+</VBox>
