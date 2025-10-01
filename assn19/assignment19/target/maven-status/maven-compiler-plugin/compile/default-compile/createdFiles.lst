@@ -1,0 +1,9 @@
+com\example\model\ChatMediator.class
+com\example\controller\ChatWindowController$ChatClientItem.class
+module-info.class
+com\example\App.class
+com\example\model\ChatClient.class
+com\example\model\Message.class
+com\example\controller\ChatClientController.class
+com\example\controller\ChatWindowController.class
+com\example\model\Mediator.class
